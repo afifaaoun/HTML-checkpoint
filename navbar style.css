@@ -1,0 +1,54 @@
+
+body { background-image: linear-gradient(
+  to bottom,
+  rgb(247, 229, 233),
+  rgb(250, 220, 235)
+), url("catfront.png");
+  }
+li {
+    display: inline;
+    padding: 2px;
+    background-color:#dddddd;
+    border-radius: 15px;
+    float:right;
+
+  }
+
+h4 {
+  color: brown;
+  font-size: medium;
+}
+div{
+  height: 150px;
+  width: 90%;
+}
+div{
+    height: 150px;
+    width: 90%;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 2px;
+}
+.tab {
+  border: 2px inset rgb(234, 0, 255);
+  border-radius: 10px;
+}
+h3 {
+  color:blueviolet;
+  font: sans-serif;
+}
+label {
+  color: darkblue;
+  font: small;
+}
+.list-ord {
+  border: 5px dotted rgb(234, 0, 255);
+  border-radius: 15px
+}
+.resume-tab{
+  border-radius: 15px;
+  border: 2px dotted rgb(234, 0, 255) ;
+}
+

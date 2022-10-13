@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Internal style 
+		<style>
+			h3 {
+			  color:blueviolet;
+			  font: sans-serif;
+			}
+			label {
+			  color: darkblue;
+			  font: small;
+			}
+		</style>-->
+            <!-- external style -->
+    <link rel="stylesheet" href="navbar style.css"/>
     <title>navbar</title>
 </head>
 <body>
     <nav>
         <!--reserved to link navbar list on the same page-->
         <a href="#home"> home </a>
-        <br>
         <a href="#about"> about </a>
-        <br>
-        <a href="#work"> work </a>
-        <br>
+        <a href="#job experience"> job experience </a>
         <a href="#resume"> resume </a>
-        <br>
         <a href="#contact"> contact </a>
-        <br>
     </nav>
+    <br>
+            <!--reserved to link navbar list on the same page(sous forme de liste)-->
+    <ul class="unor-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#job experience">job experience</a></li>
+        <li><a href="#resume">resume</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul>
     <!--reserved to search-->
         <form>
             Search <input type = "text" name = "search" />
@@ -29,8 +46,8 @@
             <div>
             <h3>about</h3>
         <p>photo</p>
-            <img src="C:\Users\LENOVO\OneDrive\Bureau\html\20210327_162307.jpg" width="50px" heigh="40px" size="40px"alt="my phooto"/>
-            <table border="2">    
+            <img src="C:\Users\LENOVO\OneDrive\Bureau\html\first html\me.jpg" width="50px" heigh="40px" size="40px"alt="my phooto"/>
+            <table class="tab" border="1">    
                 <tr>
                 <th> name</th>
                 <th> family name</th>
@@ -51,7 +68,7 @@
     <a name="work"> </a>
 
     <h3>job experience</h3>
-    <ol>
+    <ol class="list-ord">
         <li>
             graduation internship
             <p>Engineering Procurement &Project Management, EPPM</p>
@@ -79,7 +96,7 @@
     <h3>resume</h3>
     <a name="resume"> </a>
 
-    <table border="3">    
+    <table class="resume-tab" border="1">    
             <tr>
                 <th> school</th>
                 <th> year</th>
@@ -111,5 +128,6 @@
 <h4>linkedin </h4>
 <a href="https://www.linkedin.com/in/afifa-aoun/"> linkedin</a>
 <br>
+<!--text-align: center; fl css compatible sur les textes-->
 </body>
 </html>
