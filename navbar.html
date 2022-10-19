@@ -18,8 +18,14 @@
             <!-- external style -->
     <link rel="stylesheet" href="navbar style.css"/>
     <title>navbar</title>
+    <!-- Font-Awesome link yji dima fl head -->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap link yji dima fl head -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 </head>
 <body>
+
     <nav>
         <!--reserved to link navbar list on the same page-->
         <a href="#home"> home </a>
@@ -30,13 +36,13 @@
     </nav>
     <br>
             <!--reserved to link navbar list on the same page(sous forme de liste)-->
-    <ul class="unor-list">
+    <!-- <ul class="unor-list">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#job experience">job experience</a></li>
         <li><a href="#resume">resume</a></li>
         <li><a href="#contact">contact</a></li>
-    </ul>
+    </ul> -->
     <!--reserved to search-->
         <form>
             Search <input type = "text" name = "search" />
@@ -47,7 +53,11 @@
             <h3>about</h3>
         <p>photo</p>
             <img src="C:\Users\LENOVO\OneDrive\Bureau\html\first html\me.jpg" width="50px" heigh="40px" size="40px"alt="my phooto"/>
-            <table class="tab" border="1">    
+            <h4>brief description</h4>
+            <p>Dedicated, motivated, and with a capacity for development and fast learning, I am looking for a job opportunity in which I put my skills to good use to support
+                your team.</p>
+                <br>
+            <table class="tableau" border="1">    
                 <tr>
                 <th> name</th>
                 <th> family name</th>
@@ -61,37 +71,33 @@
                     <td>15/03/1995</td>
                 </tr> 
             </table>
-            <h3>brief description</h3>
-            <p>Dedicated, motivated, and with a capacity for development and fast learning, I am looking for a job opportunity in which I put my skills to good use to support
-                your team.</p></div>
+            <br>
+            </div>
 <!--reserved to work-->
-    <a name="work"> </a>
-
+<br>
     <h3>job experience</h3>
-    <ol class="list-ord">
-        <li>
-            graduation internship
-            <p>Engineering Procurement &Project Management, EPPM</p>
+    <br>
+    <dl class="list-ord">
+            <dt>graduation internship</dt>
             <img src="https://eppm.com.tn/Portals/0/logoeppm.png?ver=2019-12-12-145443-780" width="50px" size="50px"alt="EPPM"/>
+            <dd>Engineering Procurement &Project Management, EPPM
+ <!-- Disc bullets -->
+                <ul type="disc">
+                    <dd>Simulation & optimization of a gas treatment plant ( chilling unit,
+                        booster compression, dehydration unit..)</dd>
+                    <dd>Design of the different equipment ( Plate fin heat exchangers,
+                separators, pumps..)</dd>
+                    <dd>Refrigeration processes.</dd>
+                
+            </dd>
+        <dt>Engineering Internship</dt>
+        <img src="http://www.sotulub.com.tn/sites/default/files/sotulub_0.jpg" width="50px" size="50px"alt="SOTULUB"/>
+<dd>Tunisian company of lubricants, SOTULUB, Bizerte</dd>
                 <!-- Disc bullets -->
                 <ul type="disc">
-                    <li>Simulation & optimization of a gas treatment plant ( chilling unit,
-                        booster compression, dehydration unit..)</li>
-                    <li>Design of the different equipment ( Plate fin heat exchangers,
-                separators, pumps..)</li>
-                    <li>Refrigeration processes.</li>
-                </ul>
-        </li>
-        <li>
-            Engineering Internship
-            <p>Tunisian company of lubricants, SOTULUB, Bizerte</p>
-            <img src="http://www.sotulub.com.tn/sites/default/files/sotulub_0.jpg" width="50px" size="50px"alt="SOTULUB"/>
-                <!-- Disc bullets -->
-                <ul type="disc">
-                    <li>Resolution &simulation of various problems using Aspen Hysys and Excel.</li>
-                </ul>
-        </li>
-    </ol>
+                    <dd>Resolution &simulation of various problems using Aspen Hysys and Excel.</dd>
+        </dd>
+    </dl>
 <!--reserved to resume-->
     <h3>resume</h3>
     <a name="resume"> </a>
@@ -129,5 +135,28 @@
 <a href="https://www.linkedin.com/in/afifa-aoun/"> linkedin</a>
 <br>
 <!--text-align: center; fl css compatible sur les textes-->
+<i class="fa fa-car"></i>
+<i class="fa fa-car" style="font-size:48px"></i>
+<i class="fa fa-car" style="font-size:60px; color:blue"></i>
+<div class="container">
+    <!-- Some BootStrap Classes here 
+    If we want our page to take up the whole screen, we write container-fluid. -->
+    <p>bootstrap here first step</p>
+    <h6>boots</h6>
+  </div>
+  <!-- container-fluid -->
+  <div class="container-fluid">
+    <div class="row" style="background-color:lightblue">
+      First row
+    </div>
+    <hr />
+    <div class="row" style="background-color:#e5cf0d">
+      Second row
+    </div>
+    <hr />
+    <div class="row" style="background-color:#b30de5">
+      Third row
+    </div>
+  </div>
 </body>
 </html>
